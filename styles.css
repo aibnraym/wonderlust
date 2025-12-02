@@ -92,6 +92,21 @@ picture {
     display: grid;
     place-content: center;
 }
+/* SKIP-LINK CSS */
+.skip {
+    position: absolute;
+    left: 10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
 nav {
     grid-row: 1/2;
     text-align:center;
